@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+
+    }
+
+    li {
+        list-style: none;
+        color: goldenrod;
+        cursor: pointer;
+        font-size: 19px;
+        font-family: 'kdam thmor pro', sans-serif;
+        position: fixed;
+        top: 30px;
+        left: 900px;
+    }
+
+    .actor-cards-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .cards-content {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+    
+    .card {
+        width: 90%;
+        height: 400px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+    }
+    
+.card:hover {
+    transform: scale(1.2);
+}
+.foto-1 {
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/464/460/2/movie-shazam-black-adam-dwayne-johnson-wallpaper-preview.jpg');
+}
+
+.foto-2 {
+    background-image: url('https://i.ytimg.com/vi/N9Nanm7D0JM/maxresdefault.jpg');
+}
+
+.foto-3 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2022/11/20221102-ovicio-adao-negro-dwayne-johnson-dc.jpg');
+}
+
+.foto-4 {
+    background-image: url('https://i.ytimg.com/vi/L1gFFPMzbVo/maxresdefault.jpg');
+}
+
+.foto-5 {
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/10/Black-Adam-Hawkman.jpg');
+}
+
+.foto-6 {
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/09/Black-Adam-Hawkman-1.jpg');
+}
+
+.foto-7 {
+    background-image: url('https://www.syfy.com/sites/syfy/files/2022/07/3_4.jpg');
+}
+
+.foto-8 {
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/black-adam-1665763809.jpeg');
+}
+
+.foto-9 {
+    background-image: url('https://boundingintocomics.com/wp-content/uploads/2022/11/2022.11.03-04.47-boundingintocomics-636347ca16220.jpg');
+}
+
+.foto-10 {
+    background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/08/black-adam-dr-fate-social-featured.jpg');
+}
+
+.foto-11 {
+    background-image: url('https://sportshub.cbsistatic.com/i/2022/06/08/d45ef20a-dd15-4e7e-bf5d-0894c7b98995/doctor-fate-pierce-brosnan-black-adam.jpg');
+}
+
+.foto-12 {
+    background-image: url('https://pbs.twimg.com/media/FfryDUYagAINVZm?format=jpg&name=900x900');
+}
+
+.foto-13 {
+    background-image: url('https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2022/10/07/2101752124-black-adam-noah-centineo-atom-smasher.jpg');
+}
+
+.foto-14 {
+    background-image: url('https://portalpopline.com.br/wp-content/uploads/2022/10/quem-e-esmaga-atomo.jpg');
+}
+
+.foto-15 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2022/06/20220610-20220610_193349-730x365.jpg');
+}
+
+.foto-16 {
+    background-image: url('https://i.redd.it/discussion-i-feel-like-quintessa-swindell-cyclone-in-black-v0-vh0u446jwo1a1.jpg?width=1400&format=pjpg&auto=webp&s=0702149cc71a513d0faaa410329ca6d8bef13d6d');
+}
+
+.foto-17 {
+    background-image: url('https://i0.wp.com/www.arrobanerd.com.br/wp-content/uploads/2022/10/entrevista-black-adam-ada%CC%83o-negro-Quintessa-Swindell.jpg?fit=1200%2C675&ssl=1');
+}
+
+.foto-18 {
+    background-image: url('https://images.hdqwalls.com/download/quintessa-swindell-cyclone-black-adam-f7-640x1136.jpg');
+}
+
+.foto-19 {
+    background-image: url('https://cdn.ome.lt/kRu0oyQs8f3r7Omd_4U6xXXHk5k=/1200x630/smart/extras/conteudos/henry-cavill-superman.PNG');
+}
+
+.foto-20 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2022/12/20221215-ovicio-superman-henry-cavill-5-555x555.jpg');
+}
+
+.foto-21 {
+    background-image: url('https://sportshub.cbsistatic.com/i/2022/10/21/078fa98c-66b6-4f51-9958-dc414bb20cee/black-adam-amanda-waller-cameo-explained.jpg');
+}
+
+.foto-22 {
+    background-image: url('https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/aKOQNZzX3yAdHcRoAEqM6bdyoZsO5u.jpg');
+}
+
+.foto-23 {
+    background-image: url('https://tr.web.img4.acsta.net/r_1280_720/newsv7/21/02/18/10/37/3161412.jpg');
+}
+
+.foto-24 {
+    background-image: url('https://www.ecranlarge.com/uploads/image/001/086/aladdin-photo-navid-negahban-marwan-kenzari-1086636.jpg');
+}
+
+@media(max-width: 768px){
+
+
+.cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+}
+}    

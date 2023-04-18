@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.cards {
+        width: 90%;
+        height: 3300px;
+        cursor: pointer;
+        color: goldenrod;
+        font-size: 18px;
+        font-family: 'kdam thmor pro', sans-serif;
+        max-width: 900px;
+        margin:0 auto;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 35px 40px;
+}
+
+.card .user {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.star {
+    width: 20px;
+}

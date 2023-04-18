@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+
+}
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+   display: flex; 
+   width: 100%;
+   justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: goldenrod;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .05s;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+li:hover {
+    color: white;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+   background-image: url('https://images8.alphacoders.com/127/thumb-1920-1274206.jpg');
+   background-position: 50% 50%;
+   background-size: cover;
+   width: 100%;
+   height: 700px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.treiler {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'kdam thmor pro', sans-serif;
+    width: 70%; 
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;  
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: goldenrod;
+    font-size: 17px;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+}
+.banner-1 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2022/10/20221024-ovicio-adao-negro-sequencia-2-555x555.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://www.torredevigilancia.com/wp-content/uploads/2020/10/sarah.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://portalfamosos.com.br/wp-content/uploads/2020/09/Aldis-Hodge.png');
+}
+
+.banner-4 {
+    background-image: url('https://i0.wp.com/www.comicsuniverse.it/wp-content/uploads/2022/09/FdIW7awWQAA9LTY.jpeg?ssl=1');
+}
+
+.banner-5 {
+    background-image: url('https://tm.ibxk.com.br/2022/12/15/15082118316055.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+span {
+    color: goldenrod;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;   
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+       width: 95%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr ;
+        margin-top: 150px;
+    }
+}
+
